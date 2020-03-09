@@ -9,6 +9,9 @@ body {
   }
   
   .nav-wrapper {
+    background-image: url(images/black.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
     display: flex;
     justify-content: space-between;
     padding: 38px;
@@ -31,26 +34,32 @@ body {
   }
   
   .active-nav-link {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid whitesmoke;
+  }
+
+  .brand {
+    color: whitesmoke;
   }
   
   .active-nav-link a {
-    color: black !important;
+    color: whitesmoke !important;
   }
   
   .nav-link-wrapper a {
-    color: #8a8a8a;
+    color: whitesmoke;
     text-decoration: none;
     transition: color 0.5s;
   }
   
   .nav-link-wrapper:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid whitesmoke;
   }
   
   .nav-link-wrapper a:hover {
-    color: black;
+    color: whitesmoke;
   }
+
+  /* Portfolio */
   
   .portfolio-items-wrapper {
     display: grid;
@@ -78,8 +87,8 @@ body {
     align-items: center;
     height: 100%;
     text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   
   .img-text-wrapper .subtitle {
@@ -93,8 +102,7 @@ body {
   }
   
   .img-text-wrapper:hover .subtitle {
-    color: lightseagreen;
-    font-weight: 600;
+    color: whitesmoke;
   }
   
   .logo-wrapper img {
@@ -116,5 +124,5 @@ body {
   }
   
   .profile-content-wrapper h1 {
-    color: lightseagreen;
+    color: whitesmoke;
   }
