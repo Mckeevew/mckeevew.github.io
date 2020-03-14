@@ -1,4 +1,7 @@
 body {
+    background-image: url(images/wall.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
     font-family: "Lato", sans-serif;
     margin: 0px;
   }
@@ -9,9 +12,7 @@ body {
   }
   
   .nav-wrapper {
-    background-image: url(images/black.jpg);
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    color: black;
     display: flex;
     justify-content: space-between;
     padding: 38px;
@@ -24,7 +25,7 @@ body {
   .nav-wrapper > .left-side > div {
     margin-right: 20px;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 1.0rem;
   }
   
   .nav-link-wrapper {
@@ -34,29 +35,29 @@ body {
   }
   
   .active-nav-link {
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid black;
   }
 
   .brand {
-    color: whitesmoke;
+    color: black;
   }
   
   .active-nav-link a {
-    color: whitesmoke !important;
+    color: black !important;
   }
   
   .nav-link-wrapper a {
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
     transition: color 0.5s;
   }
   
   .nav-link-wrapper:hover {
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid black;
   }
   
   .nav-link-wrapper a:hover {
-    color: whitesmoke;
+    color: black;
   }
 
   /* Portfolio */
@@ -74,7 +75,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 350px;
+    height: 400px;
     width: 100%;
   }
   
@@ -102,7 +103,7 @@ body {
   }
   
   .img-text-wrapper:hover .subtitle {
-    color: whitesmoke;
+    color: white;
   }
   
   .logo-wrapper img {
@@ -124,5 +125,5 @@ body {
   }
   
   .profile-content-wrapper h1 {
-    color: whitesmoke;
+    color: black;
   }
