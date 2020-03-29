@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/wall.jpg);
+  background-image: url(../../images/wall.jpg);
   background-attachment: fixed;
   background-size: 100% 100%;
   font-family: "Lato", sans-serif;
@@ -12,7 +12,7 @@ body {
 }
   
 .nav-wrapper {
-  background-image: url(images/black2.jpg);
+  background-image: url(../../images/black2.jpg);
   background-attachment: fixed;
   background-size: 100% 100%;
   color: black;
@@ -63,8 +63,25 @@ body {
   color: whitesmoke;
 }
 
-/* Chat */
+/* Content */
+/*@media only screen and (max-device-width : 640px) {
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
+@media only screen and (max-device-width: 768px) {
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}*/
+
+/* Chat */
+textarea {
+  resize: none;
+}
 
 /* Video */
   
